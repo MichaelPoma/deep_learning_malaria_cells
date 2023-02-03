@@ -98,7 +98,7 @@ The performances for each of the models is as follows:
 The tuned models performed much better than the baseline models, with the best model being the tuned convolution neural network without auagmented data, with an accuracy with 95.63%. This is better visualized below:
 
 <p align="center">
-  <img alt="Best Model Accuracy and Loss Plot" src="best_model_acc_loss.png" width="70%">
+  <img alt="Best Model Accuracy and Loss Plot" src="best_model_acc_loss.png" width="95%">
 </p>
 
 
@@ -120,7 +120,7 @@ Both the precision and recall are very strong, indicating low numbers of false p
 The detailed model performance is as follows:
 
 <p align="center">
-  <img alt="Detailed Model Performance Plot" src="detailed_model_performance.png" width="70%">
+  <img alt="Detailed Model Performance Plot" src="detailed_model_performance.png" width="95%">
 </p>
 
 
