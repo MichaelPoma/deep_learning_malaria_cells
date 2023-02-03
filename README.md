@@ -40,7 +40,7 @@ From first glance, it's interesting to see that paracitized cells have certain g
 
 ## Build Baseline Neural Networks
 
-To understand the nature of the dataset, I built two baseline neural networks. The first network consisted of 2 Dense layers of 512 nodes in one and 256 nodes in the other, with an output layer. The other was a baseline Convolution classifier, that consisted of a 2D Covolution layer with 32 nodes and a kernel size of 3 as well as a 2D MaxPooling layer, with an output layer. ReLU activation was used for each layer in both models, expect for the output layers. The output layers were Dense layers with 1 node with the sigmoid activation function.
+To understand the nature of the dataset, I built two baseline neural networks. The first network consisted of 2 Dense layers of 512 nodes in one and 256 nodes in the other, with an output layer. The other was a baseline Convolution classifier, that consisted of a 2D Covolution layer with 32 nodes and a kernel size of 3 as well as a 2D MaxPooling layer, with an output layer. ReLU activation was used for each layer in both models, expect for the output layers. The output layers were Dense layers with 1 node with the Sigmoid activation function.
 
 Each model used the Adam optimization algorithm with binary cross-entropy loss. This was great for handling sparse gradients and noisy datasets.
 
@@ -95,7 +95,11 @@ The performances for each of the models is as follows:
 | Tuned CNN w/ augmented data  | 0.9392       |
 
 
-The tuned models performed much better than the baseline models, with the best model being the tuned convolution neural network without auagmented data, with an accuracy with 95.63%.
+The tuned models performed much better than the baseline models, with the best model being the tuned convolution neural network without auagmented data, with an accuracy with 95.63%. This is better visualized below:
+
+<p align="center">
+  <img alt="Best Model Accuracy and Loss Plot" src="best_model_acc_loss.png" width="70%">
+</p>
 
 
 ## A Note on Precision, Recall, and F1 Score
@@ -112,6 +116,12 @@ However, this dataset was completed balanced between classes, so accurcy is a gr
 | F1 Score  | 0.9529 |
 
 Both the precision and recall are very strong, indicating low numbers of false positives and false negatives. Likewise, the F1 Score is near 1, and acts as a weighted average of both precision and recall. This indicates a very good convolution neural network, nearly perfectly classifying each cell to its respective class.
+
+The detailed model performance is as follows:
+
+<p align="center">
+  <img alt="Detailed Model Performance Plot" src="detailed_model_performance.png" width="70%">
+</p>
 
 
 ## Considerations Going Forward
