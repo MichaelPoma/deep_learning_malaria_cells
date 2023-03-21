@@ -11,7 +11,7 @@
 **Python Version:** 3.8.12\
 **Installations:** keras-tuner
 **Packages:** tensorflow, keras, sklearn, pandas, numpy, matplotlib, os, cv2, glob\
-**Source Code:** https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
+**Source Data:** https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
 
 
 ## Data Collection
