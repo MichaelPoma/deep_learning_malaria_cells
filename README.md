@@ -9,7 +9,7 @@
 ## Code and Resources Used
 
 **Python Version:** 3.8.12\
-**Installations:** keras-tuner
+**Installations:** keras-tuner\
 **Packages:** tensorflow, keras, sklearn, pandas, numpy, matplotlib, os, cv2, glob\
 **Source Data:** https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
 
